@@ -9,13 +9,18 @@ body {
 
 a {
     text-decoration: none;
+    color: #1f2937;
 }
 
 a:visited {
     color: #1f2937;
 }
 
-.top.header a:visited {
+.top.header a:visited, .footer a:visited {
+    color: #f9faf8;
+}
+
+.top.header a, .footer a {
     color: #f9faf8;
 }
 
