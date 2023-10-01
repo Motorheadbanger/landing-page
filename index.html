@@ -4,55 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Flexbox Exercise</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="top header">
-        <img>Header logo</img>
+        <img src="./images/apple.png" height=64 width=64></img>
         <div class="links">
-            <a>Header link 1</a>
-            <a>Header link 2</a>
-            <a>Header link 3</a>
+            <a>E-mail</a>
+            <a>No phone</a>
+            <a>No socials</a>
         </div>
     </div>
     <div class="hero">
-        <div class="header">It's a website, technically.</div>
-        <div class="hero subheader">It's overdesigned, but such is the way of things.</div>
-        <button>TODO: connect this to a LED</button>
-        <img>Image!</div>
+        <div class="herotext">
+            <div class="header">It's a website, technically.</div>
+            <div class="hero subheader">This block is called a "hero block" for some reason. I wonder what other classic archetype names are abused this way.</div>
+            <button>TODO: connect this to a LED</button>
+        </div>
+        <img class="hero-image" src="./images/led.png"></div>
     </div>
     <div class="cards-block">
-        <div class="header">More stuff I most probably haven't done yet.</div>
+        <div class="header">Stuff I made or will probably make.</div>
         <div class="cards">
             <div class="card">
-                <img>Recipes</img>
-                <a>Link to the recipes website</a>
+                <a href="https://motorheadbanger.github.io/odin-recipes" target="_blank" rel="noreferrer noopener">
+                    Recipes
+                    <img src="./images/recipes.png"></img>
+                </a>
                 <span>Three recipe ideas you may or may not want to riff on. If you make something, let me know.</span>
             </div>
             <div class="card">
-                <img>This website</img>
-                <a>Link to this page</a>
+                <a href="https://motorheadbanger.github.io/landing-page" target="_blank" rel="noreferrer noopener">
+                    This website
+                    <img src="./images/this.png"></img>
+                </a>
                 <span>This project. Is this meta?</span>
             </div>
             <div class="card">
-                <img>Your Greed</img>
-                <a>Empty link</a>
+                <a href="">
+                    Your Greed
+                    <img src="./images/cave.png"></img>
+                </a>
                 <span>A game about kobolds and their best friend. Come back in a couple years.</span>
             </div>
             <div class="card">
-                <img>Ol' Reliable</img>
-                <a>Empty link</a>
+                <a href="">
+                    Ol' Reliable
+                    <img src="./images/gun.png"></img>
+                </a>
                 <span>A game about being old and a double-barreled shotgun. Come back in haha I wish.</span>
             </div>
         </div>
     </div>
     <div class="quote">
-        <div class="quote-text">"You. Are. Over-designing."</div>
-        <div class="quote-author"><a href="https://motherfuckingwebsite.com/"></a>- some American motherfucker</div>
+        <div class="quote-text">You. Are. Over-designing.</div>
+        <div class="quote-author"><a href="https://motherfuckingwebsite.com/">- some American motherfucker</a></div>
     </div>
     <div class="the-ugly">
-        <span class="ad-text">Ads make me hurl.</span>
-        <span class="ad-subtext">Imagine a world without marketing.</span>
-        <button>This button will help you start.</button>
+        <div class="ad">
+            <div class="text">
+                <span class="banner-text">Ads make me hurl.</span>
+                <span class="banner-subtext">Imagine a world without marketing.</span>
+            </div>
+            <button>This button will help you start.</button>
+        </div>
     </div>
     <div class="footer">Copyleft @ awkwardfistshake 2023</div>
 </body>
